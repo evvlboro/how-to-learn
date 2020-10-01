@@ -1,3 +1,7 @@
+div {
+  border: 1px solid red;
+}
+
 .page {
   min-width: 1100px;
   /* мы ещё не умеем делать мобильную версию сайта, */
@@ -71,6 +75,50 @@
   position: absolute;
   top: 64px;
   right: 0;
+}
+
+.description {
+  padding-top: 100px;
+}
+
+.two-columns {
+  width: 80%;
+  margin: auto;
+  display: flex;
+  justify-content: space-between;
+}
+
+.two-columns__brief {
+  width: 175px;
+  line-height: 1.2;
+  font-size: 18px;
+  font-weight: normal;
+  color: #2f80ed;
+  margin: 0;
+}
+
+.two-columns__main-text {
+  flex-direction: column;
+  width: 80%;
+  min-width: 784px;
+
+}
+
+.two-columns__paragraph {
+  margin: 0;
+  line-height: 34px;
+  font-size: 24px;
+  font-weight: normal;
+}
+
+.two-columns__paragraph:not(:last-child) {
+  margin-bottom: 30px;
+}
+
+.two-columns__span-accent {
+  line-height: 34px;
+  font-size: 24px;
+  font-weight: bold;
 }
 
 /* и элемента с модификатором вида ключ-значение */
