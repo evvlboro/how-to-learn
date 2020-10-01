@@ -212,7 +212,18 @@ div {
   text-decoration: none;
 }
 
+.kaufman {
+  padding: 90px 0;
+  background-color: #1f1f1f;
+}
 
+.section-title_theme_dark {
+  color: white;
+}
+
+.section-subtitle_theme_dark {
+  color: white;
+}
 
 /* и элемента с модификатором вида ключ-значение */
 .table__cell_theme_dark {
@@ -221,3 +232,15 @@ div {
   margin-right: 0;
   margin-top: 80px;
 }
+
+/*
+ * не пригодились, т.к. не отличаются ничем от
+ * своих обычных аналогов (table__heading и table__text)
+.table__heading_theme_dark {
+
+}
+
+.table__text_theme_dark {
+
+}
+*/
