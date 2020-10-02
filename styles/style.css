@@ -215,6 +215,9 @@ div {
 .kaufman {
   padding: 90px 0;
   background-color: #1f1f1f;
+  position: relative;
+  overflow: hidden;
+  z-index: -2;
 }
 
 .section-title_theme_dark {
@@ -244,3 +247,12 @@ div {
 
 }
 */
+
+.kaufman__triangle {
+  width: 877px;
+  height: 877px;
+  position: absolute;
+  top: 0;
+  right: -210px;
+  z-index: -1;
+}
