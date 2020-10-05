@@ -323,13 +323,16 @@
   margin: 0;
 }
 
+.footer__list-item {
+  list-style-type: none;
+}
+
 .footer__column-link {
   line-height: 30px;
   font-size: 18px;
   font-weight: normal;
   text-decoration: none;
   color: white;
-  list-style-type: none;
 }
 
 .footer__column-link:hover {
