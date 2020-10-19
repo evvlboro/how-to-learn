@@ -55,3 +55,18 @@
 @import url(../blocks/footer/__social-icon/footer__social-icon.css);
 
 @import url(../blocks/rotation/rotation.css);
+
+@import url(../blocks/techniques/techniques.css);
+
+@import url(../blocks/cards/cards.css);
+@import url(../blocks/cards/__item/cards__item.css);
+@import url(../blocks/cards/__image/cards__image.css);
+@import url(../blocks/cards/__title/cards__title.css);
+@import url(../blocks/cards/__description/cards__description.css);
+@import url(../blocks/);
+@import url(../blocks/);
+@import url(../blocks/);
+@import url(../blocks/);
+@import url(../blocks/);
+@import url(../blocks/);
+@import url(../blocks/);
