@@ -1,0 +1,8 @@
+.footer__column-links {
+  padding: 0;
+  margin: 0;
+}
+
+.footer__column-links:last-child {
+  padding-bottom: 16px;
+}
