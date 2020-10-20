@@ -1,5 +1,6 @@
 .cards__image {
   height: 160px;
   width: 160px;
-  margin: 60px 40px 43px;
+  margin: 0 40px 43px;
+  border-radius: 80px;
 }

@@ -2,6 +2,7 @@
   width: 515px;
   height: 316px;
   z-index: 1;
+  border: none;
 }
 
 .video__iframe:nth-child(2n){
